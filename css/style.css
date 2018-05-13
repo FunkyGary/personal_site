@@ -133,7 +133,6 @@ h2 {
 
 .col-left, .col-right {
   float: left;
-  width: 50%;
   padding: 0 15px;
 }
 
@@ -201,7 +200,6 @@ h2 {
 
 .service-content {
   float: left;
-  width: 33.33333333%;
   padding: 0 15px;
 }
 
@@ -480,12 +478,10 @@ footer {
   border-radius: 0;
   }
   .col-left {
-    float: none;
     margin: 0 auto;
   }
   .col-right {
-    float: none;
-    margin: 0 auto;
+    margin: 15px auto 0 auto;
   }
   .hire_me {
     margin-top: 10px
