@@ -310,6 +310,9 @@ h3.resume-subtitle {
   letter-spacing: 3px;
 }
 /* lastest work */
+#portfolio .carousel {
+  display: none;
+}
 .works {
   background-color: #f7f7f7;
 }
@@ -424,14 +427,14 @@ footer {
 }
 
 /*  手機版的 css 都寫在這邊  */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .nav-button,
   .nav-button-checkbox {
     display: none;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
   #header {
     text-align: center;
   }
@@ -497,5 +500,11 @@ footer {
   .contact-form .form-input:first-child, .contact-form .form-input:nth-child(2) {
     float: none;
     width: 100%;
+  }
+  #portfolio .carousel {
+    display: block;
+  }
+  .work-items {
+    display: none;
   }
 }
